@@ -5,14 +5,20 @@ messages = [
   'You can do anything you put your mind to.'
   'You are terrific.'
   'You are smart.'
+  'You are one of a kind.'
   'You have a great sense of humor.'
   'Your hair looks amazing.'
   'Everybody likes you.'
   'Smile.'
   'Have a good day!'
   'You will succeed.'
+  'Never give up.'
+  'I believe in you.'
+  'Great job!'
+  'You deserve a high five.'
   'All the good things they said about you were true, if not understatements!'
   "You're on the verge of something amazing."
+  "I sincerely believe that Joe Esposito wrote his smash hit \"You're the Best\" about you." # TODO: use appropriate pronouns when running as Joe Esposito's mom
 ]
 
 connectionIndex = 0
