@@ -51,6 +51,7 @@ server = http.createServer (request, response) ->
   console.log "incoming connection for #{name}'s mom (##{connection})"
 
   lastIndex = null
+  timeout = null
   respond = (message) ->
     if message? or Math.random() < 0.2
       message ?= do ->
@@ -64,9 +65,12 @@ server = http.createServer (request, response) ->
     else
       response.write "\n"
 
-    setTimeout respond, 5000 + Math.random() * 25000
+    timeout = setTimeout respond, 5000 + Math.random() * 25000
 
   respond "Hello, #{name}!"
+
+  request.on 'close', ->
+    clearTimeout timeout
 
 PORT = 5433
 
