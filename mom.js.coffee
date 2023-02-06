@@ -9,7 +9,7 @@ messages = [
   'You have a great sense of humor.'
   'Your hair looks amazing.'
   'Everybody likes you.'
-  'Smile.'
+  'Even if not everybody likes you, I like you.'
   'Have a good day!'
   'You will succeed.'
   'Never give up.'
